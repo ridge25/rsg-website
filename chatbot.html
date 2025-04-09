@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="chatbot.css" />  <!-- Chatbot-specific styles -->
+  <title>Chatbot</title>
+</head>
+<body>
+  <div id="chatbot-frame">
+    <div class="chat-header">Chat with RSG!</div>
+    <div class="chat-body" id="chat-body">
+      <div id="chatbot-messages">
+        <!-- Messages will be displayed here -->
+      </div>
+    </div>
+    <div id="chatbot-buttons-container">
+      <div id="chatbot-buttons">
+        <button class="chatbot-btn" onclick="handleButtonClick('Hello')">Hello 👋</button>
+        <button class="chatbot-btn" onclick="handleButtonClick('Services')">Services 🛠️</button>
+        <button class="chatbot-btn" onclick="handleButtonClick('Contact')">Contact 📞</button>
+        <button class="chatbot-btn" onclick="handleButtonClick('Help')">Help ❓</button>        
+      </div>
+    </div>
+  </div>
+  
+  <script src="chatbot.js"></script>  <!-- Chatbot-specific scripts -->
+</body>
+</html>
+
+
+
+
+
+
