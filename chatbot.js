@@ -40,13 +40,13 @@ function handleButtonClick(option) {
                 case "Help":
                 botMessage = 'Just click one of the buttons to interact with me. I\'m here to help! Have additional questions? Fill out our <a href="contact.html" target="_blank">contact form</a>!';
                 break;
-            case "Higher Education Consulting":
+            case "Campus Insight":
                 botMessage = "Campus Insight helps institutions by providing guidance on aspects from enrollment strategies to executive transition. Would you like more details or to contact us for a consultation?";
                 break;
-            case "AI System Integration":
+            case "Pennock Systems":
                 botMessage = "Pennock Systems helps automate processes, improve the user experience as well as productivity. From custom chatbots to personalized web design, we've got you covered. How can we help?";
                 break;
-            case "Digital Media Solutions":
+            case "5-Star Media":
                 botMessage = "5-Star Media enhances brand presence through creative digital strategies. From social media campaigns to personal brand display, we tailor solutions to boost your online visibility. How can we assist?";
                 break;
             case "Custom Chatbots":
@@ -72,9 +72,9 @@ function handleButtonClick(option) {
                 const buttonContainer = document.createElement("div");
                 buttonContainer.classList.add("button-container");
 
-                const button1 = createButton("Higher Education Consulting");
-                const button2 = createButton("AI System Integration");
-                const button3 = createButton("Digital Media Solutions");
+                const button1 = createButton("Campus Insight");
+                const button2 = createButton("Pennock Systems");
+                const button3 = createButton("5-Star Media");
 
                 buttonContainer.appendChild(button1);
                 buttonContainer.appendChild(button2);
@@ -84,7 +84,7 @@ function handleButtonClick(option) {
             }, 1000);
         }
 
-        if (option === "Higher Education Consulting") {
+        if (option === "Campus Insight") {
             setTimeout(() => {
                 const buttonContainer = document.createElement("div");
                 buttonContainer.classList.add("button-container");
@@ -99,7 +99,7 @@ function handleButtonClick(option) {
             }, 1000);
         }
 
-        if (option === "Digital Media Solutions") {
+        if (option === "5-Star Media") {
             setTimeout(() => {
                 const buttonContainer = document.createElement("div");
                 buttonContainer.classList.add("button-container");
@@ -114,7 +114,7 @@ function handleButtonClick(option) {
             }, 1000);
         }
 
-        if (option === "AI System Integration") {
+        if (option === "Pennock Systems") {
             setTimeout(() => {
                 const buttonContainer = document.createElement("div");
                 buttonContainer.classList.add("button-container");
