@@ -104,7 +104,7 @@ function handleButtonClick(option) {
                 const buttonContainer = document.createElement("div");
                 buttonContainer.classList.add("button-container");
 
-                const button5 = createButton("Learn More", "5-Star-Media.html");
+                const button5 = createButton("Learn More", "5-star-media.html");
                 const button6 = createButton("Contact Us", "contact.html");
 
                 buttonContainer.appendChild(button5);
